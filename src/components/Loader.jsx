@@ -23,7 +23,7 @@ function Loader(props) {
       {loder ? (
         <section
           style={{ zIndex: "9999999 " }}
-          className=" top-0 bg_rgb start-0 position-fixed position_fixed h-100 w-100 d-flex flex-column justify-content-center align-items-center">
+          className=" top-0 bg_rgb  start-0 position-fixed position_fixed h-100 w-100 d-flex flex-column justify-content-center align-items-center">
           
          <img src={preloader} alt="preloader" className="loader1"/>
         </section>
